@@ -4,3 +4,5 @@ Training:
 ```
 python trainers/trainer_open.py
 ```
+
+Refer to [Guaranteer](https://github.com/Guaranteer/convolutional_seq2seq_vqa).
