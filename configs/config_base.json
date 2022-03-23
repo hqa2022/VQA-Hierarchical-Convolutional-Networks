@@ -1,0 +1,42 @@
+{
+    "learning_rate": 1e-3,
+    "lr_decay_n_iters": 3000,
+    "lr_decay_rate": 0.8,
+    "max_epoches": 1000,
+    "early_stopping": 5,
+    "cache_dir": "../results/baseline/",
+    "display_batch_interval": 50,
+    "evaluate_interval": 5,
+    "saving_interval": 1000,
+    "epoch_reshuffle": true,
+
+
+    "lstm_dim": 512,
+    "second_lstm_dim":512,
+    "ref_dim":300,
+    "attention_dim": 256,
+    "regularization_beta": 1e-7,
+    "is_origin_dataset":false,
+    "dropout_prob": 0.6,
+    "decode_dim": 256,
+
+    "batch_size": 64,
+    "n_types": 5,
+    "n_words": 9028,
+
+    "input_video_dim": 202,
+    "max_n_frames": 240,
+    "max_n_q_words": 20,
+    "max_n_a_words": 10,
+    "input_ques_dim": 300,
+
+    "word_embedding": "../data/embedding.pkl",
+    "word2index": "../data/word2index.pkl",
+    "index2word": "../data/index2word.pkl",
+    "train_json": "../data/train_clean1.json",
+    "val_json": "../data/val_clean1.json",
+    "test_json": "../data/test_clean1.json",
+    "feature_path":"../../data/tsn_score/",
+    "feature_origin_path":"../../data/activity-c3d/"
+
+}
